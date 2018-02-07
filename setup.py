@@ -6,7 +6,7 @@ setup(
     keywords = ['aes', 'encrypt', 'decrypt', 'encryption', 'decryption', 'pbkdf2', 'hmac', 'secure', 'crypto', 'cryptography'],
     url = 'https://github.com/andrewcooke/simple-crypt',
     requires = 'pycrypto',
-    install_requires = ['pycrypto'],
+    install_requires = ['pycryptdome'],
     packages = ['simplecrypt'],
     package_dir = {'': 'src'},
     version = '4.1.7',
